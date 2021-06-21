@@ -1,0 +1,80 @@
+  .heading {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px grey;
+  }
+
+  .heading_div {
+    float: none;
+    background: white;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 5px 5px 5px grey;
+  }
+
+  .heading_div2 {
+    font-size: 18px;
+  }
+
+  .result_para_tag {
+    box-shadow: 5px 5px 5px grey;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .result_para_tag span {
+    white-space: pre-line;
+  }
+
+  canvas {
+    border: 5px ridge grey;
+    border-radius: 10px;
+    animation-name: animation;
+    animation-duration: 5s;
+    margin-top: 120px;
+    animation-iteration-count: infinite;
+    margin-bottom: 50px;
+  }
+
+  @keyframes animation {
+    0% {
+      box-shadow: 7px 7px 40px violet;
+    }
+
+    14% {
+      box-shadow: 7px 7px 40px indigo;
+    }
+
+    28% {
+      box-shadow: 7px 7px 40px blue;
+    }
+
+    52% {
+      box-shadow: 7px 7px 40px green;
+    }
+
+    68% {
+      box-shadow: 7px 7px 40px yellow;
+    }
+
+    82% {
+      box-shadow: 7px 7px 40px orange;
+    }
+
+    100% {
+      box-shadow: 7px 7px 40px red;
+    }
+  }
+
+  .copy_right_footer {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(68, 66, 66);
+    line-height: 3;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+  }
